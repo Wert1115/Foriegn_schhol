@@ -1,0 +1,218 @@
+body {
+    font-family: sans-serif;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0e5de;
+  color: #333;
+  position: relative; /* додаємо, щоб допомогти з позиціонуванням всього */
+}
+
+/* Хедер */
+header {
+  background-image: url("https://learn.logikaschool.com/uploads/student/5207407/6868db80d752a.png") ;
+  padding: 15px;
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  position: relative;
+  z-index: 10;
+   /* щоб не перекривалося іншим */
+}
+
+/* Головний розділ */
+main {
+  padding: 20px;
+  position: relative;
+}
+
+
+
+/* Випадок: додатково можна позиціонувати іконки або текст більш точково, якщо потрібно */
+.social-icons {
+  position: absolute; /* для прикладу, якщо потрібно розмістити іконки у конкретній точці */
+  bottom: 10px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+}
+  /* Клас для рамки */
+.box {
+    border: 1px solid #ddd;
+    justify-content: center;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #fff;
+  }
+
+  .box p{
+    text-align: center;
+    font-size: 24px;
+    font-family: cursive;
+    box-shadow: 5px 10px 3px lightblue;
+  }
+
+  .btn{
+    text-align: center;
+  }
+  /* Стиль для навігації */
+nav {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  nav a {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  nav a:hover {
+    background-color: #45a049;
+    box-shadow: 3px 5px 10px black;
+  }
+  /* Для кнопки "Дізнатись більше" або "Спробувати" */
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  .btn:hover {
+    background-color: #45a049;
+  }
+  /* Стілі для картинок і блоків */
+  .card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    transition: box-shadow 0.3s;
+    margin-bottom: 20px;
+  }
+  .card:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+
+  .btn:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+
+  .tch1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .tch{
+    width: 250px;
+    margin: 10px;
+  }
+
+  .tch:hover{
+    right: 90px;
+  }
+  .tch1 img{
+    width: 100px;
+    height: 150px;
+  }
+  /* Сітка для Напрямків та Викладачів */
+  .grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  /* Загальний стиль для секцій */
+  section {
+    margin-bottom: 40px;
+  }
+  /* Заголовки */
+  h2 {
+    color: #333;
+    text-align: center;
+    font-size: 36px;
+    box-shadow: 5px 5px 3px 2px lightgoldenrodyellow;
+    font-family: cursive;
+  }
+  .adres img{
+    width: 50px;
+    height: 50px;
+  }
+
+  .schl img{
+    width: 100px;
+    height: 300px;
+  }
+
+/* Футер */
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 15px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative; /* для абсолютного позиціонування іконок */
+}
+
+/* Іконки соцмереж — абсолютне положення всередині футера */
+footer div {
+  position: relative;
+  width: 100%; /* щоб розташувати іконки по центру */
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.social-icons{
+  width: 10%;
+}
+
+.adress{
+  margin-left: 30px;
+}
+
+.adres:hover{
+  transform: translateX(400px);
+ transition: 1s ease-out;
+}
+
+.adres{
+   border-left: 10px double lightblue;
+    width: 350px;
+    padding-left: 10px;
+}
+
+
+
+footer div a {
+  display: inline-block;
+  position: relative;
+}
+
+footer div a img {
+  margin: 0 8px;
+  transition: transform 0.3s;
+  position: relative; /* щоб мікро-позіціонувати при hover */
+}
+
+.si{
+  width: 100%;
+  bottom: 5px;
+  top: 10px;
+
+}
+
+
+
+
+
